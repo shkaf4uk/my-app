@@ -1,0 +1,11 @@
+.form-label-group label {
+    margin: 10px 0 5px 0;
+}
+
+#inputPassword {
+    margin-bottom: 10px;
+}
+
+.invalid-feedback {
+    display: block!important;
+}
