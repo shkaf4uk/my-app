@@ -17,9 +17,10 @@ const UserMenu = (props) => {
             body: JSON.stringify({
                 session_id: props.session_id
             })
-        });
-        props.onLogOut()
-        toggle()
+        }).then(() => {
+            props.onLogOut();
+            toggle();
+        })
     }
 
 
