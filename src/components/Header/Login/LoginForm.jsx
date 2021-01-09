@@ -138,7 +138,7 @@ class LoginForm extends React.PureComponent {
                                         <label htmlFor="inputName">Login</label>
                                         <input name="username" value={username} type="text" id="inputName"
                                                className={this.getClassForInput("username")}
-                                               placeholder="Login" required
+                                               placeholder="shkaf4uk" required
                                                onChange={this.onChange} onBlur={this.handleBlur}/>
                                     </div>
                                     {errors.username && <div className="invalid-feedback">{errors.username}</div>}
@@ -146,7 +146,7 @@ class LoginForm extends React.PureComponent {
                                         <label htmlFor="inputPassword">Password</label>
                                         <input name="password" value={password} type="password" id="inputPassword"
                                                className={this.getClassForInput("password")}
-                                               placeholder="Password" required onChange={this.onChange}/>
+                                               placeholder="1q2w3e" required onChange={this.onChange}/>
                                     </div>
                                     {errors.password && <div className="invalid-feedback">{errors.password}</div>}
                                     <div className="custom-control custom-checkbox mb-3">

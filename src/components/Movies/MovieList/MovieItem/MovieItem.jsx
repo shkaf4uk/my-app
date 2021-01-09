@@ -16,7 +16,7 @@ class MovieItem extends React.Component {
                         <p className="mb-0">Рейтинг: {data.vote_average}</p>
                         <button type="button" className="btn btn-success">Will Watch</button>
                     </div>
-                    <button type="button">Delete</button>
+                    <button type="button">Watched</button>
                 </div>
             </div>
         );
