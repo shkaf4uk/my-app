@@ -54,7 +54,7 @@ class App extends React.Component {
     }
 
     onLogOut = () => {
-        cookies.remove("session_id", {path: ""});
+        cookies.remove("session_id", {path: "https://shkaf4uk.github.io/my-app/"});
         this.setState({
             session_id: null,
             user: null
